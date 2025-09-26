@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AxoIntel - AI & Data Analytics in Dubai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background-color: #111827;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(14, 165, 233, 0.2), transparent 40%),
+                radial-gradient(circle at 85% 30%, rgba(79, 70, 229, 0.2), transparent 40%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Header -->
+    <header class="bg-gray-900/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">
+                <span class="text-sky-400">Axo</span>Intel
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#services" class="hover:text-sky-400 transition-colors">Services</a>
+                <a href="#team" class="hover:text-sky-400 transition-colors">Our Team</a>
+                <a href="#about" class="hover:text-sky-400 transition-colors">Why Dubai</a>
+                <a href="#contact" class="hover:text-sky-400 transition-colors">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#services" class="block py-2 hover:text-sky-400 transition-colors">Services</a>
+            <a href="#team" class="block py-2 hover:text-sky-400 transition-colors">Our Team</a>
+            <a href="#about" class="block py-2 hover:text-sky-400 transition-colors">Why Dubai</a>
+            <a href="#contact" class="block py-2 hover:text-sky-400 transition-colors">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg text-white py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Unlocking Intelligence from Data</h1>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">AxoIntel leverages cutting-edge AI and data analytics to transform your business challenges into growth opportunities. Based in the heart of innovation, Dubai.</p>
+                <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">
+                    Get in Touch
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Our Expertise</h2>
+                    <p class="text-gray-400 mt-2">We deliver end-to-end AI & Data solutions.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Service Card 1 -->
+                    <div class="glass-card p-8 rounded-lg text-center transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="mb-4 inline-block p-4 bg-sky-500/10 rounded-full">
+                            <svg class="w-8 h-8 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Predictive Analytics</h3>
+                        <p class="text-gray-400">Forecast future trends and behaviors with high accuracy to make proactive business decisions.</p>
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div class="glass-card p-8 rounded-lg text-center transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="mb-4 inline-block p-4 bg-sky-500/10 rounded-full">
+                             <svg class="w-8 h-8 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Machine Learning Solutions</h3>
+                        <p class="text-gray-400">Build and deploy custom ML models that automate processes and uncover hidden insights.</p>
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div class="glass-card p-8 rounded-lg text-center transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="mb-4 inline-block p-4 bg-sky-500/10 rounded-full">
+                            <svg class="w-8 h-8 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4M4 7s0 0 0 0m16 0s0 0 0 0M12 11a4 4 0 100-8 4 4 0 000 8z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Big Data Strategy</h3>
+                        <p class="text-gray-400">Develop robust strategies to manage, process, and govern your large-scale data assets effectively.</p>
+                    </div>
+                    <!-- Service Card 4 -->
+                    <div class="glass-card p-8 rounded-lg text-center transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="mb-4 inline-block p-4 bg-sky-500/10 rounded-full">
+                            <svg class="w-8 h-8 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">BI Dashboards</h3>
+                        <p class="text-gray-400">Create intuitive and interactive dashboards to visualize data and monitor key performance indicators.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="py-20 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Meet Our Founders</h2>
+                    <p class="text-gray-400 mt-2">The driving force behind AxoIntel's innovation.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Founder Card 1 -->
+                    <div class="bg-gray-800 p-6 rounded-lg text-center">
+                        <img class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-gray-700" src="https://placehold.co/200x200/1F2937/FFFFFF?text=SE" alt="Sauleh Eetemadi">
+                        <h3 class="text-xl font-bold text-white">Sauleh Eetemadi</h3>
+                        <p class="text-sky-400 font-semibold">Chief Executive Officer</p>
+                        <p class="text-gray-400 mt-2 text-sm">A visionary leader focused on strategic growth and translating complex AI capabilities into tangible business value.</p>
+                    </div>
+                    <!-- Founder Card 2 -->
+                    <div class="bg-gray-800 p-6 rounded-lg text-center">
+                        <img class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-gray-700" src="https://placehold.co/200x200/1F2937/FFFFFF?text=MR" alt="Mohammad Radfar">
+                        <h3 class="text-xl font-bold text-white">Mohammad Radfar</h3>
+                        <p class="text-sky-400 font-semibold">Chief Technology Officer</p>
+                        <p class="text-gray-400 mt-2 text-sm">The technical architect behind our powerful analytics platform, with deep expertise in scalable AI systems and data security.</p>
+                    </div>
+                    <!-- Founder Card 3 -->
+                    <div class="bg-gray-800 p-6 rounded-lg text-center">
+                        <img class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-gray-700" src="https://placehold.co/200x200/1F2937/FFFFFF?text=NH" alt="Navid Hajimirza">
+                        <h3 class="text-xl font-bold text-white">Navid Hajimirza</h3>
+                        <p class="text-sky-400 font-semibold">Head of Product</p>
+                        <p class="text-gray-400 mt-2 text-sm">A user-focused product leader dedicated to transforming complex data insights into intuitive and actionable tools.</p>
+                    </div>
+                    <!-- Founder Card 4 -->
+                    <div class="bg-gray-800 p-6 rounded-lg text-center">
+                        <img class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-gray-700" src="https://placehold.co/200x200/1F2937/FFFFFF?text=TH" alt="Taban Hajimirza">
+                        <h3 class="text-xl font-bold text-white">Taban Hajimirza</h3>
+                        <p class="text-sky-400 font-semibold">Director of Operations</p>
+                        <p class="text-gray-400 mt-2 text-sm">A meticulous operator ensuring our projects are delivered efficiently and our client partnerships thrive.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Dubai Section -->
+        <section id="about" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                         <img src="https://images.unsplash.com/photo-1518684079-3c830d5a5129?q=80&w=1974&auto=format&fit=crop" 
+                              alt="Dubai skyline with futuristic buildings" 
+                              class="rounded-lg shadow-2xl object-cover w-full h-full"
+                              onerror="this.onerror=null;this.src='https://placehold.co/600x400/111827/FFFFFF?text=Dubai+Innovation+Hub';">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Strategically Based in Dubai</h2>
+                        <p class="text-gray-400 mb-4">
+                            AxoIntel is proud to be headquartered in Dubai, a global hub for technology and innovation. The city's forward-thinking vision, world-class infrastructure, and dynamic business environment provide the perfect ecosystem for an AI and data analytics leader.
+                        </p>
+                        <p class="text-gray-400">
+                            Being in Dubai allows us to serve a diverse range of clients across the MENA region and beyond, connecting emerging markets with world-class artificial intelligence solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Let's Build the Future Together</h2>
+                    <p class="text-gray-400 mt-2">Have a project in mind? We'd love to hear from you.</p>
+                </div>
+                <div class="max-w-3xl mx-auto">
+                    <form id="contact-form" class="space-y-6">
+                        <div class="flex flex-col sm:flex-row gap-6">
+                            <input type="text" placeholder="Your Name" class="w-full bg-gray-800 border border-gray-700 rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-sky-500" required>
+                            <input type="email" placeholder="Your Email" class="w-full bg-gray-800 border border-gray-700 rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-sky-500" required>
+                        </div>
+                        <textarea placeholder="Your Message" rows="5" class="w-full bg-gray-800 border border-gray-700 rounded-md py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-sky-500" required></textarea>
+                        <div class="text-center">
+                            <button type="submit" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                    <div id="form-success" class="hidden mt-6 text-center text-green-400 border border-green-400 bg-green-900/20 p-4 rounded-md">
+                        Thank you for your message! We'll get back to you shortly.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <p>&copy; <span id="current-year"></span> AxoIntel. All Rights Reserved.</p>
+            <p class="text-sm mt-1">Dubai, United Arab Emirates</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Contact form submission
+        const contactForm = document.getElementById('contact-form');
+        const formSuccessMessage = document.getElementById('form-success');
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            formSuccessMessage.classList.remove('hidden');
+            contactForm.reset();
+            setTimeout(() => {
+                formSuccessMessage.classList.add('hidden');
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
